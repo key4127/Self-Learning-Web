@@ -2,27 +2,81 @@
 <html>
 <body>
 
+<!--submit to example/html/demo_form.asp-->
+<!--email-->
 <form action = "/example/html5/demo_form.asp" method = "get">
 E-mail: <input type = "email" name = "user_email" /><br />
 <input type = "submit" />
 </form>
 <br />
 
-
+<!--url-->
 <form action = "/example/html5/demo_form.asp" method = "get">
 HomePage: <input type = "url" name = "user_url" /><br />
 <input type = "submit" />
 </form>
 <br />
 
+<!--number-->
 <form action = "/example/html5/demo_form.asp" method = "get">
 Points: <input type = "number" name = "points" min = "1" max = "10" /><br />
 <input type = "submit" />
 </form>
 <br />
 
+<!--range-->
 <form action = "/example/html5/demo_form.asp" method = "get">
 Points: <input type = "range" name = "points" min = "1" max = "10" /><br />
+<input type = "submit" />
+</form>
+<br />
+
+<!--
+date pickers1:
+****/**/**
+-->
+<form action = "/example/html5/demo_form.asp" method = "get">
+Date: <input type = "date" name = "user_date" />
+<input type = "submit" />
+</form>
+<br />
+
+<!--
+date pickers2:
+****year**month
+-->
+<form action = "/example/html5/demo_form.asp" method = "get">
+Month: <input type = "month" name = "user_date" />
+<input type = "submit" />
+</form>
+<br />
+
+<!--
+date pickers3:
+****year**week
+-->
+<form action = "/example/html5/demo_form.asp" method = "get">
+Week: <input type = "week" name = "user_date" />
+<input type = "submit" />
+</form>
+<br />
+
+<!--
+date pickers4:
+a.m./p.m. **:**
+-->
+<form action = "/example/html5/demo_form.asp" method = "get">
+Time: <input type = "time" name = "user_date" />
+<input type = "submit" />
+</form>
+<br />
+
+<!--
+date pickers5:
+****/**/** **:**
+-->
+<form action = "/example/html5/demo_form.asp" method = "get">
+Date and time: <input type = "datetime-local" name = "user_date" />
 <input type = "submit" />
 </form>
 <br />
